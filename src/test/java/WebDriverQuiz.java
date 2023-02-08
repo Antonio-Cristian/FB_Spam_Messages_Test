@@ -29,7 +29,7 @@ public class WebDriverQuiz {
         driver = new ChromeDriver(options);driver.get(link);
         driver.findElement(By.xpath("//button[text()='Accept All']")).click();
         driver.manage().window().maximize();
-        driver.findElement(By.xpath("//div[@class='_5jb4']//input[@id='email']")).sendKeys("0735244406");
+        driver.findElement(By.xpath("//div[@class='_5jb4']//input[@id='email']")).sendKeys("PlaceholderEmail");
         driver.findElement(By.xpath("//div[@class='_5jb5']//input[@id='pass']")).sendKeys("PlaceholderPassword");
         driver.findElement(By.xpath("//button[@id='loginbutton']")).click();
         Thread.sleep(3000);
